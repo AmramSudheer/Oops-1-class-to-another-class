@@ -1,0 +1,18 @@
+class Employee:
+    def __init__(self,eno,ename,esal):
+        self.eno = eno
+        self.ename = ename
+        self.esal = esal
+
+    def display(self):
+        print("your no is",self.eno)
+        print("your name is",self.ename)
+        print("yoyr salary is",self.esal)
+
+class Updated:
+    def updatesal(emp):
+        emp.esal = emp.esal + 10000
+        emp.display()
+
+emp = Employee(101,"sunny",400000)
+Updated.updatesal(emp)
